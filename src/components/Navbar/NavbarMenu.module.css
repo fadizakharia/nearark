@@ -1,0 +1,40 @@
+.grow {
+  flex-grow: 1;
+}
+.menuItem {
+  text-align: left;
+}
+
+.mobileMenuContainer {
+  padding: 0;
+}
+.desktopMenuContainer {
+  display: flex;
+  width: 100%;
+}
+.leftMobileMenu {
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.rightMobileMenu {
+  display: block;
+  width: 100%;
+}
+.desktopAuth {
+  height: 100%;
+}
+.mobileAuth {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 10px;
+}
+.btnDesktop {
+  margin-left: 10px;
+}
+.btnMobile {
+  margin-top: 10px;
+}

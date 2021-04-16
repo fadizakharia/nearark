@@ -1,0 +1,31 @@
+.appLogo {
+  padding: 5px;
+}
+.navbarContainer {
+  display: flex;
+  height: inherit;
+}
+.drawerMenuContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.logoContainer {
+  position: relative;
+  display: block;
+  margin: 0 40px 0 0;
+}
+.burger {
+  padding: 6px !important;
+  margin-top: 8px !important;
+
+  background: none !important;
+  border: none !important;
+}
+.dash {
+  width: 35px;
+  height: 4px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
