@@ -1,5 +1,6 @@
 .footerWrapper {
   background-color: rgb(0, 0, 0);
+  /* z-index: 1; */
 }
 .footerText {
   /* color: rgba(0, 0, 0, 0.5); */

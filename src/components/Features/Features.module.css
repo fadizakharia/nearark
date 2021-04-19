@@ -1,0 +1,53 @@
+.featuresBox {
+  z-index: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #001529;
+  /* position: absolute; */
+  position: relative;
+  transform: translate(0, -20vh);
+  padding: 0 10vw;
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+}
+
+.featuresWrapper {
+  text-align: center;
+  background-color: #fffffff1;
+  position: absolute;
+  width: 70vw;
+  border-radius: 10px;
+  border: 4px solid #ad2102c3;
+  box-shadow: 10px 10px 20px #ad2102a1, -10px -10px 20px #ad2102a1;
+  height: 40vh;
+  top: 40vh;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.textCarousel {
+  height: 35vh;
+  width: 100%;
+  /* line-height: "160px"; */
+  text-align: "center";
+  background: "#364d79";
+  /* position: relative; */
+}
+.featureContainer {
+  color: #001529;
+  display: block;
+  padding: 4vh;
+}
+.featureIcon {
+}
+.featureTitle {
+  display: block;
+  font-family: "Spartan";
+  color: #ad2102a1;
+  font-size: 2em;
+}
+.featureText {
+  display: block;
+  color: #001529;
+  font-family: "Spartan";
+  font-weight: 600;
+  font-size: 1.2em;
+}

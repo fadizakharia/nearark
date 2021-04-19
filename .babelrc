@@ -23,7 +23,8 @@
       "libraryDirectory": "lib",
               "style": true
           }
-      ]
+      ],
+      ["styled-components", { "ssr": true, "displayName": true, "preprocess": false } ]
 ],
 "ignore": ["node_modules"]
 }
